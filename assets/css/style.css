@@ -1,0 +1,36 @@
+* { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', Arial, sans-serif; }
+
+body {
+    background: #ffffff;
+    background-image: url('../images/logo_univ_ndjamena.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 28%;
+    background-attachment: fixed;
+    background-color: rgba(255, 255, 255, 0.93);
+    background-blend-mode: lighten;
+    min-height: 100vh;
+    color: #333;
+}
+
+.container { max-width: 1250px; margin: 0 auto; padding: 20px; }
+.header { background: #002b5c; color: white; padding: 18px; border-radius: 6px; margin-bottom: 25px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+.nav { background: #004080; padding: 12px; border-radius: 4px; margin-bottom: 20px; }
+.nav a { color: white; margin-right: 20px; text-decoration: none; font-weight: 500; }
+.nav a:hover { text-decoration: underline; }
+
+.card { background: white; padding: 20px; border-radius: 6px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); margin-bottom: 20px; }
+table { width: 100%; border-collapse: collapse; margin: 15px 0; }
+th, td { padding: 12px; text-align: left; border-bottom: 1px solid #eee; }
+th { background: #f0f4f9; }
+
+.btn { padding: 8px 14px; border: none; border-radius: 4px; cursor: pointer; text-decoration: none; display: inline-block; font-size: 14px; }
+.btn-primary { background: #0056b3; color: white; }
+.btn-success { background: #28a745; color: white; }
+.btn-warning { background: #ffc107; color: #212529; }
+.btn-danger { background: #dc3545; color: white; }
+.btn-sm { padding: 5px 10px; font-size: 13px; }
+
+input, textarea, select { width: 100%; padding: 10px; margin: 8px 0 15px; border: 1px solid #ddd; border-radius: 4px; }
+label { font-weight: 500; }
+
