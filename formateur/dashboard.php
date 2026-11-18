@@ -15,7 +15,7 @@ $req = $pdo->prepare("
     WHERE formateur_id = ? 
     ORDER BY date_creation DESC
 ");
-$req->execute([$_SESSION['user_id']]);
+$req->execute([$_SESSION['user_id'] ?? 1]);
 $cours = $req->fetchAll(PDO::FETCH_ASSOC);
 ?>
 
